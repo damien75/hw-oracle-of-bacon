@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.2'
+ruby '2.3.0'
 
 gem 'nokogiri'
 gem 'byebug'
@@ -11,6 +11,8 @@ group :test do
   gem 'rspec', '3.3.0'
   gem 'rspec-its'
   gem 'rspec-collection_matchers'
+  gem 'autotest-rails'
+  gem 'rspec-autotest'
 end
 
 
